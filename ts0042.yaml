@@ -41,11 +41,6 @@ blueprint:
       default:
       selector:
         action: {}
-    button_3_press:
-      name: Actions for Button 3 Pressed
-      default:
-      selector:
-        action: {}
 mode: parallel
 max: 10
 trigger:
