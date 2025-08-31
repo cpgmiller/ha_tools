@@ -2,8 +2,7 @@ blueprint:
   name: TS0044 Zigbee Remote
   description: Configure actions for TS0044
   domain: automation
-  source_url: https://github.com/zpriddy/Home-Assistant/blob/d7940c3aba7e96aae8da53864022b37e09923ef7/ts0044_zigbee_remote.yaml
-  author: Chris Miller
+  author: Chris Miller, based on Zachary Priddy
   input:
     ts0044_device:
       name: TS0044 Remote
@@ -11,7 +10,7 @@ blueprint:
         device:
           filter:
           - model: TS0044
-          multiple: false
+          multiple: true
     button_1_press:
       name: Actions for Button 1 Pressed
       default:
