@@ -1,6 +1,6 @@
 blueprint:
-  name: TS0044 Zigbee Remote
-  description: Configure actions for TS0044
+  name: TS0044 Zigbee Remote - Dual Devices
+  description: Configure actions for TS0044, allowing for up to two devices
   domain: automation
   author: Chris Miller, based on Zachary Priddy
   input:
